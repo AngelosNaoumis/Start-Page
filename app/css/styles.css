@@ -19,22 +19,6 @@ html {
   height: 100%;
 }
 
-h1 {
-  color: white;
-  width: 100%;
-  text-align: center;
-}
-
-#greeting {
-  font-size: 90px;
-  margin: 0;
-  margin-bottom: 20px;
-}
-
-#date {
-  font-size: 30px;
-}
-
 .header__container {
   margin: 20px;
   display: inline-block;

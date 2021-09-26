@@ -1,0 +1,177 @@
+@import "bulma.css";
+
+@font-face {
+  font-family: 'product';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+}
+
+* {
+  font-family: product;
+}
+
+html {
+  /* Google "digital art wallpaper" for wallpapers*/
+  background: url(../img/bg.gif) no-repeat center center fixed;
+  background-size: cover;
+  /* cover whole screen*/
+  height: 100%;
+}
+
+h1 {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+#greeting {
+  font-size: 90px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#date {
+  font-size: 30px;
+}
+
+.header__container {
+  margin: 20px;
+  display: inline-block;
+  background-color: rgba(100, 100, 100, .6);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+
+.header__container:hover {
+  transform: translateY(-0.2rem);
+  background-color: rgba(100, 100, 100, 1);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+}
+
+.header__link:hover {
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+}
+
+.main__container {
+  background-color: rgba(100, 100, 100, .6);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+  border-radius: 10px 10px 0px 0px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.main__title {
+  font-size: 26px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.main__line {
+  height: 3px;
+  width: 180px;
+}
+
+.main__item {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.main__item:hover {
+  transform: translateY(-0.2rem);
+  background-color: rgba(100, 100, 100, .6);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+
+.main__link {
+  text-decoration: none;
+  color: white;
+}
+
+.main__link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.s1Title {
+  background: linear-gradient(to right, #fc4a1a, #f7b733);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+
+.s1Line {
+  background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+
+.s2Title {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+
+.s2Line {
+  background-image: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+.s3Title {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+
+.s3Line {
+  background-image: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.s4Title {
+  background: linear-gradient(to right, #fffc2f, #5fff2f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+
+.s4Line {
+  background-image: linear-gradient(to right, #fffc2f, #5fff2f);
+}
+
+.s5Title {
+  background: linear-gradient(to right, #a924dd, #ff2f7f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+
+.s5Line {
+  background-image: linear-gradient(to right, #a924dd, #ff2f7f);
+}
+
+.weather {
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(100, 100, 100, .6);
+  border-radius: 10px;
+}
+
+.footer__text {
+  color: #00d1b2;
+}
